@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Sync"
+        android:key="video_directory"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Klasör Adı" />
+    <EditTextPreference
+        android:defaultValue="playbackvideo.mp4"
+        android:key="file_video_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Dosya Adı" />
+</PreferenceScreen>
